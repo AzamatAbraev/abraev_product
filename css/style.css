@@ -529,9 +529,13 @@ main {
 @media (max-width: 800px) {
   .offer__row {
     flex-direction: column;
-    align-items: center;
+    align-items: space-between;
     gap: 30px;
     margin-bottom: 50px;
+  }
+  .row__card__2 {
+    align-items: flex-end;
+    justify-content: end;
   }
 }
 .offer__btn {
