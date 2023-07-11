@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container nav__container">
+          <div class="nav__logo">
+            <a class="nav__logo__link" href="#">
+              <img class="nav__logo__img" src="images/logo.svg" alt="Logo" />
+              <p class="nav__logo__text">Product</p>
+            </a>
+          </div>
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link"> Product </a>
+              </li>
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link"> Customers </a>
+              </li>
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link"> Pricing </a>
+              </li>
+              <li class="nav__list__item">
+                <a href="#" class="nav__list__link"> Resources </a>
+              </li>
+              <li class="nav__list__item">
+                <button class="nav__menu__btn">Sign In</button>
+              </li>
+              <li class="nav__list__item">
+                <button class="nav__menu__btn">Sign Up</button>
+              </li>
+              <li class="nav__list__item">
+                <button onclick="myFunction()" class="nav__btn">
+                  <img
+                    class="dark__light__mode"
+                    src="images/dark-light.svg"
+                    alt=""
+                  />
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger" id="navbar-open">
+            <button class="hamburger__btn">
+              <img src="images/menu.svg" alt="Menu" />
+            </button>
+          </div>
+          <div id="navbar-responsive">
+            <ul class="res__nav__list">
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link"> Product</a>
+              </li>
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link">Customers</a>
+              </li>
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link">Pricing</a>
+              </li>
+              <li class="res__nav__item">
+                <a href="#" class="res__nav__link">Resources</a>
+              </li>
+              <li class="res__nav__item">
+                <button class="nav__menu__btn res__nav__btn">Sign In</button>
+              </li>
+              <li class="res__nav__item">
+                <button class="nav__menu__btn res__nav__btn">Sign Up</button>
+              </li>
+              <li class="res__nav__item">
+                <button onclick="myFunction()" class="nav__btn">
+                  <img
+                    class="dark__light__mode"
+                    src="images/dark-light.svg"
+                    alt=""
+                  />
+                </button>
+              </li>
+            </ul>
+            <button id="navbar-close">
+              <img src="images/close.svg" alt="Close" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <div class="container home__container">
+          <div class="home__left">
+            <div class="home__info">
+              <h1 class="home__title">Work at the speed of thought</h1>
+              <p class="home__desc">
+                Tools, tutorials, design and innovation experts, all in one
+                place! The most intuitive way to imagine your next user
+                experience.
+              </p>
+            </div>
+            <div class="home__buttons">
+              <button class="home__btn">Get started</button>
+              <div class="home__link">
+                <button class="home__play__btn">
+                  <img src="images/play-btn.svg" alt="Play" />
+                </button>
+                <a class="home__link__play" href="#">Watch the Video</a>
+              </div>
+            </div>
+          </div>
+          <div class="home__right">
+            <img
+              class="home__img"
+              src="images/home-main.png"
+              alt="Social Media"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container product__container">
+          <div class="product__header">
+            <h2 class="product__title">
+              Product was Built Specifically for You
+            </h2>
+          </div>
+          <div class="product__row">
+            <div class="product__card">
+              <img src="images/product-1.svg" alt="pointer" />
+              <h3 class="product__card__title">First click tests</h3>
+              <p class="product__card__desc">
+                While most people enjoy casino gambling,
+              </p>
+            </div>
+            <div class="product__card">
+              <img src="images/product-2.svg" alt="pointer" />
+              <h3 class="product__card__title">Design surveys</h3>
+              <p class="product__card__desc">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </div>
+            <div class="product__card">
+              <img src="images/product-3.svg" alt="pointer" />
+              <h3 class="product__card__title">Preference tests</h3>
+              <p class="product__card__desc">
+                The Myspace page defines the individual.
+              </p>
+            </div>
+            <div class="product__card">
+              <img src="images/product-4.svg" alt="pointer" />
+              <h3 class="product__card__title">Five second tests</h3>
+              <p class="product__card__desc">
+                Personal choices and the overall personality of the person.
+              </p>
+            </div>
+          </div>
+          <div class="product__button">
+            <button class="product__btn">SIGN UP NOW</button>
+          </div>
+        </div>
+      </section>
+      <section class="service">
+        <div class="container service__container">
+          <div class="service__row">
+            <div class="service__info">
+              <h3 class="service__row__subtitle">Effortless Validation for</h3>
+              <h2 class="service__row__title">Management</h2>
+              <p class="service__desc">
+                The Myspace page defines the individual, his or her
+                characteristics, traits, personal choices and the overall
+                personality of the person.
+              </p>
+              <div class="service__feature__card">
+                <h3 class="service__feature">Accessory makers</h3>
+                <p class="service__desc">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </div>
+              <div class="service__feature__card">
+                <h3 class="service__feature">Alterationists</h3>
+                <p class="service__desc">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </div>
+            </div>
+            <div class="service__img">
+              <img
+                class="service__main__img"
+                src="images/service-1.png"
+                alt="Service"
+              />
+            </div>
+          </div>
+          <div class="service__row row-2">
+            <div class="service__img">
+              <img
+                class="service__main__img"
+                src="images/service-2.png"
+                alt="Service"
+              />
+            </div>
+            <div class="service__info">
+              <h3 class="service__row__subtitle">Easier decision making for</h3>
+              <h2 class="service__row__title">Customer Support</h2>
+              <p class="service__desc">
+                The Myspace page defines the individual, his or her
+                characteristics, traits, personal choices and the overall
+                personality of the person.
+              </p>
+              <div class="service__feature__card">
+                <h3 class="service__feature">Accessory makers</h3>
+                <p class="service__desc">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </div>
+              <div class="service__feature__card">
+                <h3 class="service__feature">Alterationists</h3>
+                <p class="service__desc">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="service__row">
+            <div class="service__info">
+              <h3 class="service__row__subtitle">Optimisation for</h3>
+              <h2 class="service__row__title">Collaborative</h2>
+              <p class="service__desc">
+                Few would argue that, despite the advancements of feminism over
+                the past three decades, women still face a double standard when
+                it comes to their behavior.
+              </p>
+              <div class="service__feature__card">
+                <h3 class="service__feature">Accessory makers</h3>
+                <p class="service__desc">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </div>
+              <div class="service__feature__card">
+                <h3 class="service__feature">Alterationists</h3>
+                <p class="service__desc">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </div>
+            </div>
+            <div class="service__img">
+              <img
+                class="service__main__img"
+                src="images/service-3.png"
+                alt="Service"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <div class="container offer__container">
+          <div class="offer__header">
+            <h2 class="offer__title">Quick & Easy Process</h2>
+            <p class="offer__subtitle">
+              Do you require some help for your project: Conception workshop,
+              prototyping, marketing strategy, landing page, Ux/UI?
+            </p>
+          </div>
+          <div class="offer__row">
+            <div class="offer__row__card">
+              <img src="images/offer-1.png" alt="Offer" />
+              <div class="offer__row__card__textbox">
+                <p class="offer__row__card__text">
+                  I can take care of your pitch
+                </p>
+              </div>
+            </div>
+            <div class="offer__row__card">
+              <div class="offer__row__card__textbox">
+                <p class="offer__row__card__text">I can prototype your app</p>
+              </div>
+              <img src="images/offer-2.png" alt="Offer" />
+            </div>
+          </div>
+          <div class="offer__row">
+            <div class="offer__row__card">
+              <div class="offer__row__card__textbox">
+                <p class="offer__row__card__text">
+                  I can design you website
+                </p>
+              </div>
+              <img src="images/offer-3.png" alt="Offer" />
+            </div>
+            <div class="offer__row__card">
+              <img src="images/offer-4.png" alt="Offer" />
+              <div class="offer__row__card__textbox">
+                <p class="offer__row__card__text">I can help marketing strategy</p>
+              </div>
+            </div>
+          </div>
+          <div class="offer__button">
+            <button class="offer__btn">Contact our expert</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="JS/main.js"></script>
+  </body>
+</html>

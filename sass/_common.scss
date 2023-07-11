@@ -1,0 +1,38 @@
+$scroll-behavior: smooth;
+$header-height: 80px;
+
+$primary-text: #22343D;
+$secondary-text: #02897A;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+
+ul {
+  list-style-type: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Poppins";
+}
