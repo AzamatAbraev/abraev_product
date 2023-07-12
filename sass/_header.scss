@@ -192,6 +192,20 @@ header {
     color: #fff;
   }
 
+  .offer * {
+    color: white;
+  }
+
+  .offer__container {
+    color: #fff;
+    .offer__title, .offer__subtitle {
+      color: #fff;
+    }
+    .offer__row__card__text {
+      color: black;
+    }
+  }
+
   .home__container * {
     color: white;
 

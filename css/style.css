@@ -234,6 +234,18 @@ header {
 .dark-mode .service * {
   color: #fff;
 }
+.dark-mode .offer * {
+  color: white;
+}
+.dark-mode .offer__container {
+  color: #fff;
+}
+.dark-mode .offer__container .offer__title, .dark-mode .offer__container .offer__subtitle {
+  color: #fff;
+}
+.dark-mode .offer__container .offer__row__card__text {
+  color: black;
+}
 .dark-mode .home__container * {
   color: white;
 }
@@ -382,6 +394,12 @@ main {
   background: #02897A;
   margin-top: 60px;
   margin-bottom: 90px;
+  transition: 0.5s;
+}
+.product__btn:hover {
+  color: #02897A;
+  background-color: #fff;
+  border: 1px solid #02897A;
 }
 .product .product__button {
   display: flex;
@@ -478,6 +496,10 @@ main {
     text-align: center;
   }
 }
+.offer__container {
+  padding-bottom: 50px;
+}
+
 .offer__row__card {
   display: flex;
   align-items: center;
@@ -544,6 +566,12 @@ main {
   font-weight: 700;
   padding: 15px 30px;
   background-color: #02897A;
+  transition: 0.5s;
+}
+.offer__btn:hover {
+  color: #02897A;
+  background-color: #fff;
+  border: 1px solid #02897A;
 }
 
 .offer__button {

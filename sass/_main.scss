@@ -154,6 +154,12 @@ main {
     background: $secondary-text;
     margin-top: 60px;
     margin-bottom: 90px;
+    transition: 0.5s;
+    &:hover {
+      color: $secondary-text;
+      background-color: #fff;
+      border: 1px solid $secondary-text;
+    }
   }
 
   .product__button {
@@ -274,6 +280,10 @@ main {
   }
 }
 
+.offer__container {
+  padding-bottom: 50px;
+}
+
 .offer__row__card {
   display: flex;
   align-items: center;
@@ -345,6 +355,12 @@ main {
   font-weight: 700;
   padding: 15px 30px;
   background-color: $secondary-text;
+  transition: 0.5s;
+  &:hover {
+    color: $secondary-text;
+    background-color: #fff;
+    border: 1px solid $secondary-text;
+  }
 }
 
 .offer__button {
